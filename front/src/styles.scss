@@ -1,0 +1,33 @@
+:root{
+    --green:rgb(22, 87, 22);
+    --red:rgb(184, 12, 12);
+    --background-color:#f3f3f3;
+    --grey-main:#e8e8e8;
+    --grey2:#cdcdcd;
+    --grey:#AAA8A8;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    list-style: none;
+    text-decoration: none;
+  }
+  
+  body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  html,
+  body {
+    height: 100%;
+  }
+  
+  button,input {
+    font-family: 'Poppins', sans-serif;
+  
+  }
+
