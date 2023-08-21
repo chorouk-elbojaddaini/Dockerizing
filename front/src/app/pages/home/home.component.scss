@@ -4,20 +4,22 @@ table {
     border-collapse: collapse;
     border: 1px solid #ccc;
     margin-bottom: 20px;
-  }
-  
-  th, td {
+}
+
+th,
+td {
     padding: 10px;
     text-align: left;
-  }
-  
-  th {
+}
+
+th {
     background-color: #f0f0f0;
     font-weight: bold;
-  }
-  
-  /* Styles pour les boutons */
-  .delete-button, .edit-button {
+}
+
+/* Styles pour les boutons */
+.delete-button,
+.edit-button {
     background-color: #3498db;
     color: white;
     border: none;
@@ -25,13 +27,12 @@ table {
     cursor: pointer;
     margin-right: 5px;
     border-radius: 3px;
-  }
-  
-  .delete-button {
+}
+
+.delete-button {
     background-color: #e74c3c;
-  }
-  
-  .edit-button {
+}
+
+.edit-button {
     background-color: #2ecc71;
-  }
-  
+}
