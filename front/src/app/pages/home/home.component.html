@@ -1,2 +1,24 @@
-
-  <h1>Helloo</h1>
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Email</th>
+      <th>Department</th>
+      <th>Phone</th>
+      <th>Actions</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let user of users">
+      <td>{{ user.name }}</td>
+      <td>{{ user.email }}</td>
+      <td>{{ user.department }}</td>
+      <td>{{ user.phone }}</td>
+      <td>
+        <button class="delete-button" (click)="deleteUser(user)">Delete</button>
+        <button class="edit-button" (click)="editUserDetails(user)">Edit Details</button>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<!-- <mat-paginator [pageSizeOptions]="[5, 10, 25]" showFirstLastButtons></mat-paginator> -->
